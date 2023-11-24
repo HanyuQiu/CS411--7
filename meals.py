@@ -33,7 +33,7 @@ def fetch_meal_details():
         'area': meal['strArea']
     }
 
-# Insert 30 unique meals into the database
+# Insert 300 unique meals into the database
 meal_names = set()
 while len(meal_names) < 300:
     details = fetch_meal_details()
