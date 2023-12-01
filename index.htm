@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recipe Finder</title>
+</head>
+<body>
+    <h1>Welcome to the Recipe Finder</h1>
+    <form id="ingredient-form">
+        <label for="ingredients">Enter Ingredients:</label><br>
+        <input type="text" id="ingredients" name="ingredients" required>
+        <input type="submit" value="Find Recipes">
+    </form>
+
+    <script>
+        document.getElementById("ingredient-form").onsubmit = function(event) {
+            event.preventDefault();
+            let ingredients = document.getElementById("ingredients").value;
+            // Here you would add the code to call the recipe API and handle the response
+            console.log("Ingredients entered:", ingredients);
+        };
+    </script>
+</body>
+</html>
