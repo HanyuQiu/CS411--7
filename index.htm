@@ -7,9 +7,15 @@
     <title>Recipe Search</title>
 </head>
 <body>
+  <script src="app.js"></script>
     <div class="container">
         <h1>Recipe Search</h1>
-
+   <!-- User Authentication Section -->
+   <div id="authSection">
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+</div>
         <!-- Recipe Search Section -->
         <div id="recipeSection">
             <input type="text" id="searchInput" placeholder="Search for recipes...">
@@ -21,6 +27,6 @@
             </div>
         </div>
     </div>
-    <script src="app.js"></script>
+    
 </body>
 </html>
