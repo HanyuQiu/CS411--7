@@ -24,12 +24,18 @@ This repository contains a web application for searching and displaying recipes.
 
 ## Setup and Installation
 Install Dependencies: Run npm install to install the necessary Node.js dependencies listed in package.json.
+
 Database Setup: Ensure meals.db is correctly set up and accessible.
+
 API Keys: Replace YOUR_SPOONACULAR_API_KEY in spoontacular.py with your actual API key.
+
 Running the Backend Server: Execute node app.js to start the Node.js server.
+
 Accessing the Web Interface: Open index.html in a web browser to access the application.
 
 ## Usage
 Searching Recipes: Use the search bar in the web interface to search for recipes.
-Viewing Recipes: The application displays a list of recipes based on the search criteria.
-User Authentication: Utilize the OAuth functionality for user-specific actions (if implemented).
+
+Viewing Recipes: The application displays a list of recipes by showing the YouTube video link or specific procedures based on the fetching API and based on the search criteria.
+
+User Authentication: Need to register/log in according to user's account info.
