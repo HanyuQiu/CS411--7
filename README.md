@@ -5,13 +5,21 @@ This repository contains a web application for searching and displaying recipes.
 
 ## Files and Directories
 spoontacular.py, meals.py: Python scripts to fetch data from the Spoonacular API and interact with a SQLite database.
+
 meals.java: Java file handling SQL queries and OAuth authentication.
+
 meals.db: SQLite database storing meal information.
+
 index.html: Main webpage for the application.
+
 script.js: JavaScript file with functions to interact with the backend and update the web interface.
+
 style.css: CSS file for styling the web interface.
+
 app.js: Node.js application entry point, setting up the server and routes.
+
 router.js: Express router handling API endpoints.
+
 package.json, package-lock.json: Node.js project manifest and lock file for managing dependencies.
 
 ## Setup and Installation
