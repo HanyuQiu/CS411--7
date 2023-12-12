@@ -7,26 +7,24 @@
     <title>Recipe Search</title>
 </head>
 <body>
-  <script src="app.js"></script>
+    <script src="script.js"></script>
     <div class="container">
         <h1>Recipe Search</h1>
-   <!-- User Authentication Section -->
-   <div id="authSection">
-    <input type="text" id="username" placeholder="Username">
-    <input type="password" id="password" placeholder="Password">
-    <button onclick="login()">Login</button>
-</div>
+        <!-- User Authentication Section -->
+        <div id="authSection">
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button onclick="login()">Login</button>
+        </div>
+
         <!-- Recipe Search Section -->
-        <div id="recipeSection">
+        <div id="recipeSection" style="display: none;">
             <input type="text" id="searchInput" placeholder="Search for recipes...">
             <button onclick="searchRecipes()">Search</button>
 
             <!-- Display Results Section -->
-            <div id="results">
-           
-            </div>
+            <div id="results"></div>
         </div>
     </div>
-    
 </body>
 </html>

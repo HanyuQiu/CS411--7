@@ -1,18 +1,49 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.britannica.com%2Ftopic%2Ffood&psig=AOvVaw2PVWqEVD-lySwW94yPyg0R&ust=1702429609864000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIDetNTaiIMDFQAAAAAdAAAAABAD') center center fixed; 
+    background-size: cover;
 }
 
 .container {
-    max-width: 600px;
-    margin: 50px auto;
     text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+#authSection, #recipeSection {
+    margin-top: 20px;
 }
 
 input {
-    width: 70%;
     padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 button {
     padding: 10px;
+    width: 100%;
+    background: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #2980b9;
 }
