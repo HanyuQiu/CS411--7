@@ -1,3 +1,16 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://www.happy-bears.com/kajily/wp-content/uploads/2019/11/c565ce857b083be9dc09c3ba40f81d30_s.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
