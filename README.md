@@ -5,6 +5,9 @@ This repository contains a web application for searching and displaying recipes.
 
 ## [Video Link](https://youtu.be/-nk4FzfVqVg)
 
+## Issue Encountered
+We've working hard on configuring a correct router file to connect our frontend and backend. However, as we are using java and SQL for backend, we didn't find helpful tutorial articles or videos about how to configure the router file in our case. We tried a lot of different versions of the router file but it still didn't work. We acknowledge our responsibility in not fully completing the project. However, I believe we have exerted our utmost effort and dedication. We believe all other files are working correctly, and we have uploaded all of them to the repository. Thank you for the semester!
+
 ## Files and Directories
 **spoontacular.py**, **meals.py**: Python scripts to fetch data from the Spoonacular API and interact with a SQLite database.
 
