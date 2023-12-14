@@ -1,7 +1,16 @@
 # Recipe Search Web Application
 
+### Group Members
+1. Shuaiqi (David) Huang
+2. Yu Ham (Franky) Ng
+3. Hanyu (Kate) Qiu
+4. Kejing (Skylar) Yan
+
 ## Overview
 This repository contains a web application for searching and displaying recipes. It integrates a frontend web interface with a backend server that fetches data from an online API and a SQL database. The application is built using a combination of technologies including Python, Java, JavaScript, HTML, and CSS.
+
+## Project Idea
+Picky eaters always avoid certain foods or dishes, but sometimes the dishes they can cook with their favorite ingredients may be limited. In such cases, this web-based software helps them to find available food and avoid using ingredients they don’t like, as the software generates recipes based on the ingredients that are available/disliked.
 
 ## [Video Link](https://youtu.be/-nk4FzfVqVg)
 
